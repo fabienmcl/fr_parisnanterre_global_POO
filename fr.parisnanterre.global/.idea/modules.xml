@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TD1/TD1.iml" filepath="$PROJECT_DIR$/TD1/TD1.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD1/TD1Shapes.iml" filepath="$PROJECT_DIR$/TD1/TD1Shapes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD1V2/TD1V2.iml" filepath="$PROJECT_DIR$/TD1V2/TD1V2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD2/TD2.iml" filepath="$PROJECT_DIR$/TD2/TD2.iml" />
       <module fileurl="file://$PROJECT_DIR$/fr.parisnanterre.global.iml" filepath="$PROJECT_DIR$/fr.parisnanterre.global.iml" />
     </modules>

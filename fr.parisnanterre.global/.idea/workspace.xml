@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2705d758-cf02-45ab-ae95-7432e1015059" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/POO/src/Departements/Departement.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/POO/README.md" afterPath="" />
-    </list>
+    <list default="true" id="2705d758-cf02-45ab-ae95-7432e1015059" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +22,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TD1.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TD1.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TD1/TD1.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Shape.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TD1V2/src/Shapes/Shape.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -96,6 +103,7 @@
         <option value="$PROJECT_DIR$/POO/src/TD1/TD1Departements/Departement.java" />
         <option value="$PROJECT_DIR$/POO/src/TD1Departements/Departement.java" />
         <option value="$PROJECT_DIR$/POO/src/Departements/Departement.java" />
+        <option value="$PROJECT_DIR$/TD1V2/src/Shapes/Shape.java" />
       </list>
     </option>
   </component>
@@ -139,7 +147,20 @@
             <path>
               <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
               <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
-              <item name="TD1" type="462c0819:PsiDirectoryNode" />
+              <item name="TD1V2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
+              <item name="TD1V2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
+              <item name="TD1V2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
@@ -157,7 +178,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/GIT/fr_parisnanterre_global_POO" />
@@ -285,12 +306,12 @@
       <updated>1506341010662</updated>
       <workItem from="1506889975962" duration="131000" />
       <workItem from="1506890135413" duration="56000" />
-      <workItem from="1506891227463" duration="778000" />
+      <workItem from="1506891227463" duration="1028000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="977000" />
+    <option name="totallyTimeSpent" value="1227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
@@ -335,13 +356,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TD1/src/Shapes/Shape3D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TD1/src/Shapes/Sphere.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
@@ -706,6 +720,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TD1V2/src/Shapes/Shape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
