@@ -199,7 +199,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="471" />
     <option name="width" value="1400" />
@@ -234,12 +234,6 @@
               <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
               <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
               <item name="TD1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
-              <item name="TD1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
@@ -385,15 +379,15 @@
       <updated>1506341010662</updated>
       <workItem from="1506889975962" duration="131000" />
       <workItem from="1506890135413" duration="56000" />
-      <workItem from="1506891227463" duration="472000" />
+      <workItem from="1506891227463" duration="571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="671000" />
+    <option name="totallyTimeSpent" value="770000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
+    <frame x="-11" y="35" width="1942" height="1056" extended-state="7" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
