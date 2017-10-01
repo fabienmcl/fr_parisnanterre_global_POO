@@ -158,13 +158,6 @@
             <path>
               <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
               <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
-              <item name="TD1V2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Shapes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fr.parisnanterre.global" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fr.parisnanterre.global" type="462c0819:PsiDirectoryNode" />
               <item name="TD2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -306,12 +299,12 @@
       <updated>1506341010662</updated>
       <workItem from="1506889975962" duration="131000" />
       <workItem from="1506890135413" duration="56000" />
-      <workItem from="1506891227463" duration="1028000" />
+      <workItem from="1506891227463" duration="1127000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1227000" />
+    <option name="totallyTimeSpent" value="1326000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
