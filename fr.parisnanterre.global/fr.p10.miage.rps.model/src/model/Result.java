@@ -1,7 +1,18 @@
 package model;
 
 public enum Result {
-    WIN,
-    LOST,
-    TIE;
+    WIN("win"),
+    LOST("lost"),
+    TIE("tie");
+
+    private final String result;
+
+    Result(String result){
+        this.result=result;
+    }
+
+    @Override
+    public String toString() {
+        return result;
+    }
 }
