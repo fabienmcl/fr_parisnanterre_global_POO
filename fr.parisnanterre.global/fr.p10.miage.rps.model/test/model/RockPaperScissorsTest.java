@@ -1,5 +1,6 @@
 package model;
 
+import jdk.internal.cmm.SystemResourcePressureImpl;
 import org.testng.annotations.*;
 
 import static org.testng.Assert.*;
@@ -24,7 +25,23 @@ public class RockPaperScissorsTest {
 
     @Parameters({"paper","rock"})
     @Test
-    public  void testWinPlay(String p1, String p2){
-        assertEquals(rock.play(Result.valueOf(p1),Result.valueOf(p2)),Result.WIN;
+    public  void testWinPlay(String p1, String p2) {
+        assertEquals(rock.play(RPSEnum.valueOf(p1),RPSEnum.valueOf(p2)), Result.LOST);
+
+    }
+
+    @DataProvider(name = "winData")
+    public Object[][] createDataWin() {
+        return new Object[][] {
+                { RPSEnum.SCISSORS,RPSEnum.PAPER },
+                { RPSEnum.PAPER, RPSEnum.ROCK},
+                { RPSEnum.ROCK, RPSEnum.SCISSORS},
+        };
+    }
+
+    @Test(dataProvider = "winData")
+    public void verifyDataWIN(RPSEnum n1, RPSEnum n2) {
+        System.out.println(n1+" : "+n2);
+        assertEquals(rock.play(n1,n2), Result.LOST);
     }
 }
