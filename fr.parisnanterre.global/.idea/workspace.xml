@@ -16,17 +16,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fr_parisnanterre_global$_default___1_.coverage" NAME="&lt;default&gt; (1) Coverage Results" MODIFIED="1506957825354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/fr_parisnanterre_global$RockPaperScissorsTest.coverage" NAME="RockPaperScissorsTest Coverage Results" MODIFIED="1507797367606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/fr_parisnanterre_global$RockPaperScissorsTest.coverage" NAME="RockPaperScissorsTest Coverage Results" MODIFIED="1507800914482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>model.*</FILTER>
     </SUITE>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="RockPaperScissorsTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RockPaperScissorsTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/test/model/RockPaperScissorsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+            <state relative-caret-position="499">
+              <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -75,13 +75,13 @@
       <file leaf-file-name="RockPaperScissors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/RockPaperScissors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
                 <element signature="e#187#188#0" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,10 +168,10 @@
         <option value="$PROJECT_DIR$/TD2/test/fr/simple/test/PouetTest.java" />
         <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/RPSEnum.java" />
         <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/Result.java" />
-        <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/test/model/RockPaperScissorsTest.java" />
         <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/RPSEnum.java" />
-        <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/Player.java" />
         <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/RockPaperScissors.java" />
+        <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/Player.java" />
+        <option value="$PROJECT_DIR$/fr.p10.miage.rps.model/test/model/RockPaperScissorsTest.java" />
       </list>
     </option>
   </component>
@@ -596,44 +596,44 @@
       <workItem from="1507791106227" duration="230000" />
       <workItem from="1507791382580" duration="1043000" />
       <workItem from="1507792510162" duration="3829000" />
-      <workItem from="1507796395060" duration="2327000" />
+      <workItem from="1507796395060" duration="3625000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 09m 30s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 12m 51s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 12m 56s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 14m 36s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 15m 58s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 16m 38s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 20m 22s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 23m 45s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 35m 46s.xml">
-      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="RockPaperScissorsTest - 2017.10.12 at 10h 36m 09s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 33m 59s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 34m 20s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 34m 38s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 35m 15s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 35m 50s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 36m 25s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 37m 07s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 37m 50s.xml">
+      <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RockPaperScissorsTest - 2017.10.12 at 11h 38m 33s.xml">
       <configuration name="RockPaperScissorsTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18044000" />
+    <option name="totallyTimeSpent" value="19342000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="35" width="1942" height="1056" extended-state="6" />
@@ -650,7 +650,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4969325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918918" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -694,10 +694,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4969325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4969325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918918" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22216216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22216216" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -857,16 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/test/model/RockPaperScissorsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="78" column="0" lean-forward="true" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/RPSEnum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -890,21 +880,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/RockPaperScissors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/src/model/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+        <state relative-caret-position="119">
+          <caret line="43" column="8" lean-forward="false" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
@@ -921,6 +911,16 @@
             <element signature="e#574#575#0" expanded="true" />
             <element signature="e#972#973#0" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fr.p10.miage.rps.model/test/model/RockPaperScissorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="21" column="27" lean-forward="false" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,7 +9,7 @@ public class RockPaperScissors {
         return  Result.LOST;
     }
 
-    public  Result play(Player player1, Player p2){
+    public  Result playReal(Player player1, Player p2){
         return Result.LOST;
     }
 }

@@ -6,16 +6,49 @@ import org.testng.annotations.*;
 import static org.testng.Assert.*;
 
 public class RockPaperScissorsTest {
+
+    /*
+    DataProvinder -> String
+                    "wara"
+    Param confing ( ou fichier de config XML)
+            "wara" "PAPER"
+    @test
+    m(String p)
+    o.play(RPSEnum.valueOf(p)
+
+    Enum RPSEnum{
+        PAPIER("PAPER")
+        }
+       ---- version RPSEnum
+     DateProvider -> RPSEnum
+     |
+     |
+     |
+     @test
+     m(RPSEnum p) {
+        o.play(p);
+     }
+     */
     RockPaperScissors rock;
+    Player playerUNO;
+    Player playerDUO;
 
     //initialisation RockPaperScissors
     @BeforeClass
     public void setUp(){
         rock = new RockPaperScissors();
+        playerUNO = new Player("uno");
+        playerDUO = new  Player("duo");
     }
     @AfterClass
     public void tearDown(){
         rock = null;
+        playerUNO = playerDUO = null;
+    }
+
+    @BeforeTest
+    public void setUpClass(){
+
     }
 
     @Test
