@@ -4,15 +4,15 @@ public class Sphere extends Shape3D {
     double radius;
 
     static{
-        ShapeFactory.registerProduct ( ShapeEnum.SPHERE, new Sphere(0));
+        ShapeFactory.registerProduct ( ShapeEnum.SPHERE, new Sphere(5));
     }
     @Override
-    Shape createShape (){
-        return new Sphere(0);
+    public Shape3D createShape(){
+        return new Sphere(5);
     }
     @Override
-    double surface() {
-        return 0;
+    public double surface() {
+        return 4*3.14*(radius*radius);
     }
 
     public Sphere(double radius) {
@@ -21,6 +21,6 @@ public class Sphere extends Shape3D {
 
     @Override
     double volume() {
-        return 0;
+        return  ((4*3.14)/3)*(radius*radius*radius);
     }
 }

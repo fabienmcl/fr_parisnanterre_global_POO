@@ -2,11 +2,10 @@ package ShapesFactoryTD1;
 
 public class Cuboid extends Shape3D {
     static{
-        ShapeFactory.registerProduct ( ShapeEnum.CUBOID, new Cuboid(0,0,0));
+        ShapeFactory.registerProduct ( ShapeEnum.CUBOID, new Cuboid(1,2,3));
     }
-    @Override
-    Shape createShape (){
-        return new Cuboid(0,0,0);
+    public Shape3D createShape(){
+        return new Cuboid(1,2,3);
     }
 
     @Override
@@ -15,7 +14,7 @@ public class Cuboid extends Shape3D {
     }
 
     @Override
-    double surface() {
+    public double surface() {
         return 0;
     }
 

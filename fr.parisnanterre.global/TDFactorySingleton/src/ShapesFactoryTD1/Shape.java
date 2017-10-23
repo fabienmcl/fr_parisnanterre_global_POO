@@ -1,8 +1,8 @@
 package ShapesFactoryTD1;
 
-public abstract class Shape {
+abstract class Shape {
 
-    abstract double surface();
+    public abstract double surface();
 
-    abstract Shape createShape ();
+    public abstract Shape createShape();
 }

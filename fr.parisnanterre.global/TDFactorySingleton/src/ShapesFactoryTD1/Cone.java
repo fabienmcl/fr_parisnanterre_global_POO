@@ -3,7 +3,7 @@ package ShapesFactoryTD1;
 public class Cone extends Shape3D {
 
     static{
-        ShapeFactory.registerProduct ( ShapeEnum.CONE, new Cone(0,0));
+        ShapeFactory.registerProduct ( ShapeEnum.CONE, new Cone(1,3));
     }
     @Override
     double volume() {
@@ -11,7 +11,7 @@ public class Cone extends Shape3D {
     }
 
     @Override
-    double surface() {
+    public double surface() {
         return 0;
     }
 
@@ -22,8 +22,8 @@ public class Cone extends Shape3D {
         this.height = height;
         this.radius = radius;
     }
-    @Override
-    Shape createShape (){
-        return new Cone(0,0);
+
+    public Shape3D createShape(){
+        return new Cone(1,3);
     }
 }

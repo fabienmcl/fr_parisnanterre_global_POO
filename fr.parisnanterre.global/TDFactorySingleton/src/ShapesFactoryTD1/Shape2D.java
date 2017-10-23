@@ -11,4 +11,6 @@ public abstract class Shape2D extends Shape implements Translatable2D {
 
     abstract double perimetrer();
 
+    public abstract Shape2D createShape();
+
 }

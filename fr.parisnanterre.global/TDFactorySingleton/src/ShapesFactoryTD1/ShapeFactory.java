@@ -12,11 +12,17 @@ public class ShapeFactory {
         registry.put(e, s);
     }
 
-    public Shape2D createProduct2D(Shape2D s) {
-        return (Shape2D) registry.get(s).createShape();
+    public Shape createShape(){
+        return registry.get(ShapeEnum.RECTANGLE);
     }
 
-    public Shape3D createProduct3D(Shape3D s) {
+    public Shape2D createProduct2D(ShapeEnum s) {
+        System.out.println(registry.get(s).createShape().toString());
+        return (Shape2D) registry.get(s).createShape();
+
+    }
+
+    public Shape3D createProduct3D(ShapeEnum s) {
         return (Shape3D) registry.get(s).createShape();
     }
 }

@@ -2,11 +2,12 @@ package ShapesFactoryTD1;
 
 public class Rectangle extends Shape2D {
     static{
-        ShapeFactory.registerProduct ( ShapeEnum.RECTANGLE, new Rectangle(0,0));
+        ShapeFactory.registerProduct ( ShapeEnum.RECTANGLE, new Rectangle(4,8));
     }
+
     @Override
-    Shape createShape (){
-        return new Rectangle(0,0);
+    public Shape2D createShape(){
+        return new Rectangle(4,8);
     }
     public double getLength() {
         return length;
@@ -37,12 +38,20 @@ public class Rectangle extends Shape2D {
     }
 
     @Override
-    double surface() {
-        return 0;
+    public double surface() {
+        return length*width;
     }
 
     @Override
     double perimetrer() {
-        return 0;
+        return 2*(length+width);
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "length=" + length +
+                ", width=" + width +
+                '}';
     }
 }

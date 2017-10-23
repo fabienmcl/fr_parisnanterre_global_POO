@@ -9,4 +9,6 @@ public abstract class Shape3D extends Shape implements Translatable3D {
     }
 
     abstract double volume();
+
+    public abstract Shape3D createShape();
 }
