@@ -1,6 +1,6 @@
 package DPFactorySingetonRegistry;
 
-enum  ProductEnum {
+public enum  ProductEnum {
     A("A"),
     B("B");
 

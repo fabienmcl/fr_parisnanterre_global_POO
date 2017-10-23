@@ -1,6 +1,5 @@
 package DPFactorySingetonRegistry;
-
-public class ConcreteProductB implements Product {
+class ConcreteProductB implements Product {
     @Override
     public Product createProduct() {
         return new ConcreteProductB();
@@ -8,6 +7,11 @@ public class ConcreteProductB implements Product {
 
 
     static{
-        Factory.registerShape ( ProductEnum.B, new ConcreteProductB());
+        SingletonFactory.registerProduct ( ProductEnum.B, new ConcreteProductB());
+    }
+
+    @Override
+    public String toString() {
+        return "ConcreteProductB{}";
     }
 }

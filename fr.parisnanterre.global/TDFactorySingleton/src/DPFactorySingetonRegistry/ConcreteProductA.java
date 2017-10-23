@@ -2,7 +2,7 @@ package DPFactorySingetonRegistry;
 
 import ShapeFactory.Square;
 
-public class ConcreteProductA implements Product {
+class ConcreteProductA extends AbstractProductA {
 
 
     @Override
@@ -12,7 +12,11 @@ public class ConcreteProductA implements Product {
 
 
     static{
-        Factory.registerShape ( ProductEnum.A, new ConcreteProductA());
+        SingletonFactory.registerProduct ( ProductEnum.A, new ConcreteProductA());
     }
 
+    @Override
+    public String toString() {
+        return "ConcreteProductA{}";
+    }
 }
