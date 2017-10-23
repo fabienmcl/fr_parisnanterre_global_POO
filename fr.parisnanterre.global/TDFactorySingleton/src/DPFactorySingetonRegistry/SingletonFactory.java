@@ -16,6 +16,11 @@ public class SingletonFactory implements Factory {
         registry .put(e,p);
     }
 
+    //dans le cas de createShape > createShape(ShapeEnum e, parametre utiles ....);
+    //Dans le cas de avec des données spécifique, il faut crée de plusieurs create()
+    // exple createSh2D : .périmètre() et createSh3D() : .volume();
+    // en commun il y a .surface() de l'interface/abtract Shape.java
+
     @Override
     public synchronized Product createProduct(ProductEnum e) {
         return registry.get(e).createProduct();
