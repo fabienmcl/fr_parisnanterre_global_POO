@@ -22,6 +22,10 @@ public class Cone extends Shape3D {
         this.height = height;
         this.radius = radius;
     }
+    public Cone(){
+        this.height = 0;
+        this.radius = 0;
+    }
 
     public Shape3D createShape(){
         return new Cone(1,3);

@@ -3,6 +3,7 @@ package ShapesFactoryTD1;
 public class Rectangle extends Shape2D {
     static{
         ShapeFactory.registerProduct ( ShapeEnum.RECTANGLE, new Rectangle(4,8));
+        ShapeFactory.registerProduct2D ( ShapeEnum.RECTANGLE, new Rectangle(4,8));
     }
 
     @Override
