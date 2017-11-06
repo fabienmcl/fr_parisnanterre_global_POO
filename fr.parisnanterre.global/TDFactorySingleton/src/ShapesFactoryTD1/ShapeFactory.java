@@ -6,6 +6,7 @@ import java.util.Map;
 
 public class ShapeFactory {
 
+    //https://stackoverflow.com/questions/7619153/automatic-factory-registration
     static Map<ShapeEnum, Shape> registry = new HashMap<ShapeEnum, Shape>();
 
     static Map<ShapeEnum, Shape2D> registry2D = new HashMap<ShapeEnum, Shape2D>();
