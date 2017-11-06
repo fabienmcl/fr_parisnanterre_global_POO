@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Burger {
 
+    String name;
 
     List<Ingredient> ingredients;
 
@@ -27,13 +28,14 @@ public class Burger {
 
     public Burger(Steak steak,Size size) {
 
+        this.name = "Own style";
         ingredients = new ArrayList<Ingredient>();
 
-
+        ingredients.add(new Bread());
         this.steak = steak;
         this.size =  size;
-        this.cheese = 0;
-        this.onions = 0;
+        steak.set_size(size);
+        ingredients.add(steak);
     }
 
     public void with_cheese(){
@@ -53,10 +55,6 @@ public class Burger {
 
     @Override
     public String toString() {
-        return "Burger{" +
-                "cheese=" + cheese +
-                ", onions=" + onions +
-                ", steak=" + steak +
-                '}';
+        return ingredients.get(0).get_print();
     }
 }

@@ -6,6 +6,7 @@ public class Main {
 
     public static void main(String args[]) {
         Burger b = new Burger(Steak.SOJA, Size.LARGE);
+
         System.out.println(b.toString());
     }
 }
