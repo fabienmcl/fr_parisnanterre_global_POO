@@ -1,4 +1,4 @@
-package SystemeDeFichiers;
+package SysFichierFR;
 
 public abstract class Fichier {
 

@@ -12,6 +12,7 @@ public interface File {
         }
     }
 
+    int size();
     int getId();
     String getName();
     User getUser();
@@ -21,11 +22,9 @@ public interface File {
     boolean close();
     boolean write(String content);
     void rename(String name);
+    String read();
 
     Set<File> ListFiles();
-
-    File addFile(File file);
+    void addFile(File file);
     void removeFile(File file);
-
-    int size();
 }
