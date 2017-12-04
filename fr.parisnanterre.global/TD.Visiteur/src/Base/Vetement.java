@@ -20,7 +20,7 @@
 
 package Base;
 
-public class Vetement implements Truc {
+public class Vetement implements Truc,Visitable {
     @Override
     public void afficher() {
         System.out.println("je suis un vetement");
@@ -30,4 +30,18 @@ public class Vetement implements Truc {
         this.afficher();
     }
 
+    @Override
+    public double prix() {
+        return 45;
+    }
+
+    @Override
+    public double m3() {
+        return 0.25;
+    }
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }

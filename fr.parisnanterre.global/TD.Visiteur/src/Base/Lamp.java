@@ -20,7 +20,7 @@ package Base;
  * emails: pascal.poizat@lip6.fr
  */
 
-public class Lamp implements Truc {
+public class Lamp implements Truc,Visitable {
     @Override
     public void afficher() {
         System.out.println("je suis une lampe");
@@ -29,4 +29,17 @@ public class Lamp implements Truc {
     public void afficher2() {
         this.afficher();
     }
+    @Override
+    public double prix(){
+        return 60;
+    }
+    @Override
+    public double m3(){
+        return 1;
+    }
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }
+

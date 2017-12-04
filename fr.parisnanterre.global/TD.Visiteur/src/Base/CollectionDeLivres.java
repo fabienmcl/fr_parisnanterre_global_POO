@@ -20,7 +20,7 @@ package Base;
  * emails: pascal.poizat@lip6.fr
  */
 
-public class CollectionDeLivres implements Truc {
+public class CollectionDeLivres implements Truc, Visitable{
     private int nbLivres;
 
     public CollectionDeLivres(int nbLivres) {
@@ -34,5 +34,22 @@ public class CollectionDeLivres implements Truc {
     @Override
     public void afficher2() {
         this.afficher();
+    }
+
+    @Override
+    public double prix() {
+        return 8;
+    }
+
+    @Override
+    public double m3() {
+        return 0.1;
+    }
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
+    public int getNbLivres(){
+        return nbLivres;
     }
 }

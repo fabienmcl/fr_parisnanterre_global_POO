@@ -2,6 +2,7 @@ package Base;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collector;
 
 /**
  * This program is free software; you can redistribute it and/or modify
@@ -23,7 +24,7 @@ import java.util.Set;
  * emails: pascal.poizat@lip6.fr
  */
 
-public class Univers {
+public class Univers implements Visitable {
     private Set<Piece> pieces;
 
     public Univers() {
@@ -34,6 +35,20 @@ public class Univers {
         pieces.add(truc);
     }
 
+    public double prix(){
+        /*double rtr =0;
+        for(Piece p : pieces){
+            rtr += p.prix();
+        }
+        return rtr;
+        */
+        //return pieces.stream().map(Piece :: prix ).sum;
+        return pieces.stream().mapToDouble(Piece :: prix).sum();
+
+    }
+    public double m3(){
+        return 0;
+    }
     public void afficher() {
         System.out.println("je suis l'univers");
         pieces.stream().forEach(Piece::afficher);
@@ -41,5 +56,10 @@ public class Univers {
     public void afficher2() {
         pieces.stream().forEach(Piece::afficher2);
         System.out.println("je suis l'univers");
+    }
+
+    @Override
+    public void accept(Visitor v) {
+
     }
 }

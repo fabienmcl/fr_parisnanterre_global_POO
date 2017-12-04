@@ -29,4 +29,18 @@ public class Lit implements Truc {
     public void afficher2() {
         this.afficher();
     }
+
+    @Override
+    public double prix() {
+        return 100;
+    }
+
+    @Override
+    public double m3() {
+        return 3;
+    }
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
+    }
 }

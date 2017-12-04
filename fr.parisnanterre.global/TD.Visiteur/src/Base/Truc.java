@@ -18,7 +18,9 @@ package Base; /**
  * emails: pascal.poizat@lip6.fr
  */
 
-public interface Truc {
+public interface Truc extends Visitable {
     void afficher();
     void afficher2();
+    double prix();
+    double m3();
 }

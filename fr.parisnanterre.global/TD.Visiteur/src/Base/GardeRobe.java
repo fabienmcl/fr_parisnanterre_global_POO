@@ -23,7 +23,17 @@ package Base;
 import java.util.HashSet;
 import java.util.Set;
 
-public class GardeRobe implements Truc {
+public class GardeRobe implements Truc, Visitable {
+    @Override
+    public double prix() {
+        return vetements.stream().mapToDouble(Truc :: prix).sum();
+    }
+
+    @Override
+    public double m3() {
+        return vetements.stream().mapToDouble(Truc :: prix).sum();
+    }
+
     Set<Vetement> vetements;
 
     public GardeRobe() {
@@ -43,5 +53,9 @@ public class GardeRobe implements Truc {
     public void afficher2() {
         vetements.stream().forEach(Vetement::afficher2);
         System.out.println("je suis une garde robe");
+    }
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
     }
 }

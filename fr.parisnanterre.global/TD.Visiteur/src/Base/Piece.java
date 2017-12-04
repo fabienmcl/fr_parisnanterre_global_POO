@@ -23,7 +23,7 @@ import java.util.Set;
  * emails: pascal.poizat@lip6.fr
  */
 
-public class Piece {
+public class Piece implements Visitable {
     private final String name;
     private Set<Truc> trucs;
 
@@ -43,5 +43,16 @@ public class Piece {
     public void afficher2() {
         trucs.stream().forEach(Truc::afficher2);
         System.out.println("je suis la piece "+name);
+    }
+    public double prix(){
+        return trucs.stream().mapToDouble(Truc :: prix).sum();
+    }
+    public double m3(){
+        return  trucs.stream().mapToDouble(Truc :: m3).sum();
+    }
+
+    @Override
+    public void accept(Visitor v) {
+        v.visit(this);
     }
 }
