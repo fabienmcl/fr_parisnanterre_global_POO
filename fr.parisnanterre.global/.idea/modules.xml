@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TD.Composite.SysFichier/TD.Composite.SysFichier.iml" filepath="$PROJECT_DIR$/TD.Composite.SysFichier/TD.Composite.SysFichier.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD.Restaurant.Patterns/TD.Restaurant.Patterns.iml" filepath="$PROJECT_DIR$/TD.Restaurant.Patterns/TD.Restaurant.Patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TD.Visiteur/TD.Visiteur.iml" filepath="$PROJECT_DIR$/TD.Visiteur/TD.Visiteur.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD1V2/TD1V2.iml" filepath="$PROJECT_DIR$/TD1V2/TD1V2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TD2/TD2.iml" filepath="$PROJECT_DIR$/TD2/TD2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TDFactorySingleton/TDFactorySingleton.iml" filepath="$PROJECT_DIR$/TDFactorySingleton/TDFactorySingleton.iml" />
