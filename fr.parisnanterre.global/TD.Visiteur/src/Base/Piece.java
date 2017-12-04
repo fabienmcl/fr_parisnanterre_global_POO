@@ -25,7 +25,7 @@ import java.util.Set;
 
 public class Piece implements Visitable {
     private final String name;
-    private Set<Truc> trucs;
+    Set<Truc> trucs;
 
     public Piece(String name) {
         this.name = name;

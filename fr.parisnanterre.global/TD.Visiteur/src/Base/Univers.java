@@ -25,7 +25,7 @@ import java.util.stream.Collector;
  */
 
 public class Univers implements Visitable {
-    private Set<Piece> pieces;
+    Set<Piece> pieces;
 
     public Univers() {
         this.pieces = new HashSet<Piece>();
@@ -60,6 +60,6 @@ public class Univers implements Visitable {
 
     @Override
     public void accept(Visitor v) {
-
+        v.visit(this);
     }
 }

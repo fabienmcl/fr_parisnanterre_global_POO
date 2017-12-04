@@ -1,8 +1,10 @@
+package Base;
+
 import Base.*;
 
 public class Main {
 
-    public static void Mian(String[] args){
+    public static void main(String[] args){
 
         Vetement veste = new Vetement();
         Vetement pantalon = new Vetement();
@@ -24,6 +26,9 @@ public class Main {
         leTout.ajouter(room1);
         leTout.ajouter(room2);
         //avec vsisteur
+
+        VisiteurOne one = new VisiteurOne();
+        one.visit(leTout);
 
 
 
