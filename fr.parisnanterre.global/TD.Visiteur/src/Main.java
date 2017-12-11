@@ -29,7 +29,9 @@ public class Main {
 
         VisiteurOne one = new VisiteurOne();
         one.visit(leTout);
-
+        VisiteurTwo visteurCalcul = new VisiteurTwo();
+        visteurCalcul.visit(leTout);
+        System.out.println("il y a :"+visteurCalcul.value()+" objets");
 
 
 
