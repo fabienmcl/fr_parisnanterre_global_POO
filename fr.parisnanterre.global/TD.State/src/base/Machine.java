@@ -17,10 +17,10 @@ public class Machine{
     public void askTea(){
         etat.askTea(this);
     }
-    public void setEtat(Etat etat){
+    void setEtat(Etat etat){
         this.etat = etat;
     }
-    public Etat getEtat(){
+    Etat getEtat(){
         return etat;
     }
 }

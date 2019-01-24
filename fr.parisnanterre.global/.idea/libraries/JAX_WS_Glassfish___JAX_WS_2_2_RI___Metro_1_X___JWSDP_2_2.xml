@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="JAX-WS-Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" type="JAX-WS">
+    <properties version="Glassfish / JAX-WS 2.2 RI / Metro 1.X / JWSDP 2.2" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/gmbal-api-only.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/ha-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxb-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/FastInoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxb-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxws-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jsr181-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxws-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/management-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/mimepull.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/saaj-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/stax2-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/saaj-impl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/streambuffer.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/woodstox-core-asl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/fr.paris10.miage.procs/lib/jaxws-rt.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
